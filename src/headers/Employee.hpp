@@ -12,7 +12,7 @@ public:
     bool getBusy();
     void setBusy(bool busy);
     bool getForkLiftCertificate();
-    bool setForkLiftCertificate(bool forkLiftCertificate);
+    void setForkLiftCertificate(bool forkLiftCertificate);
 
 };
 

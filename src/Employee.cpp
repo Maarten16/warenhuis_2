@@ -23,6 +23,6 @@ bool Employee::getForkLiftCertificate() {
     return this->forkLiftCertificate;
 }
 
-bool Employee::setForkLiftCertificate(bool forkLiftCertificate) {
+void Employee::setForkLiftCertificate(bool forkLiftCertificate) {
     this->forkLiftCertificate = forkLiftCertificate;
 }
