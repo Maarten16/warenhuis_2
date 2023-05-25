@@ -4,7 +4,6 @@
 #include "headers/Shelf.hpp"
 #include "headers/Warehouse.hpp"
 #include "headers/instructions.hpp"
-#include "headers/Pallet.hpp"
 
 int c = 0;
 int plus(int a, int b) {
@@ -62,6 +61,8 @@ int main() {
     warehouse.addEmployee(employee2);
     warehouse.addEmployee(employee3);
     warehouse.addEmployee(employee4);
+
+    warehouse.rearrangeShelf(warehouse.Shelves[0]);
 
     printItems(warehouse);
     std::cout << "\nstock: \t";
